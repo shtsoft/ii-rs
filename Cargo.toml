@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "iicli",
+  "iifrontend",
+  "iilib",
+  "iiservice"
+]
+resolver = "2"
+
+[profile.release.package.iifrontend]
+opt-level = "s"
