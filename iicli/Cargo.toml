@@ -1,0 +1,13 @@
+[package]
+name = "iicli"
+version = "0.1.0"
+edition = "2021"
+description = ""
+documentation = "https://docs.rs/iicli"
+readme = "README.md"
+repository = "https://github.com/shtsoft/ii-rs"
+license = "GPL-3.0-or-later"
+keywords = []
+categories = []
+
+[dependencies]
