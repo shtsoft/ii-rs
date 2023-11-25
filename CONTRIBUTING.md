@@ -104,3 +104,4 @@ accordingly and make a commit with message 'Release iiFOOBAR version X.Y.Z'.
 Check if publishing would work with `cargo publish --dry-run`.
 Afterwards tag the commit (`git tag iiFOOBAR-vX.Y.Z -m 'Release iiFOOBAR version X.Y.Z'`) and merge development back into master.
 Finally, make a release on GitHub and publish on crates.io.
+In case of [iifrontend](iifrontend) also publish the [pkg](iifrontend/pkg) on the npm registry.
