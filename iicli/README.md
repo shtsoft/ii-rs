@@ -17,8 +17,21 @@ A **simple** IRC client as a CLI powered by [iilib](https://github.com/shtsoft/i
     + thoroughly testet
     + memory-safety: no `unsafe`-code
 
-For documentation see [Released API docs](https://docs.rs/iicli).
-In particular, you can find a design- and usage-description there.
+### Installation
+
+You can install iicli with `cargo` by running:
+
+```console
+user@host:~$ cargo install iicli
+```
+
+### Usage
+
+To get a usage description just run the app without arguments:
+
+```console
+user@host:~$ iicli
+```
 
 ## Contributing
 
