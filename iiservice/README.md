@@ -8,7 +8,7 @@
 [license-badge]: https://img.shields.io/badge/license-GPL-blue.svg
 [license-url]: ./Cargo.toml
 
-A **simple** IRC client as a service powered by [iilib](https://github.com/shtsoft/ii-rs/iilib), effectively constituting a reimplementation of [ii](https://tools.suckless.org/ii) in **Rust**.
+A **simple** IRC client as a service powered by [iilib](https://github.com/shtsoft/ii-rs/iilib), effectively constituting a reimplementation of [ii](https://tools.suckless.org/ii) as a service in **Rust**.
 
 - simplicity:
   * ...
@@ -17,8 +17,21 @@ A **simple** IRC client as a service powered by [iilib](https://github.com/shtso
     + thoroughly testet
     + memory-safety: no `unsafe`-code
 
-For documentation see [Released API docs](https://docs.rs/iiservice).
-In particular, you can find a design- and usage-description there.
+### Installation
+
+You can install iiservice with `cargo` by running:
+
+```console
+user@host:~$ cargo install iiservice
+```
+
+### Usage
+
+To get a usage description just run the app without arguments:
+
+```console
+user@host:~$ iiservice
+```
 
 ## Contributing
 
