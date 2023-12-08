@@ -15,6 +15,10 @@ The project consists of the packages:
 
 ## Deployment
 
+The following two sections describe possibilities to deploy [iifrontend](iifrontend) and [iiservice](iiservice) in tandem.
+
+### By Installation
+
 ...
 
 ### Docker
