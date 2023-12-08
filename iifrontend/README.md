@@ -8,11 +8,11 @@
 [license-badge]: https://img.shields.io/badge/license-GPL-blue.svg
 [license-url]: ./Cargo.toml
 
-A **simple** frontend for [iiservice](https://github.com/shtsoft/ii-rs/iiservice) made with **Rust+wasm**.
+A **simple** frontend for [iiservice](https://github.com/shtsoft/ii-rs/iiservice) made with **Rust+WebAssembly**.
 
 - simplicity:
   * ...
-- Rust+wasm
+- Rust+WebAssembly
   * safety:
     + thoroughly testet
     + memory-safety: no `unsafe`-code
